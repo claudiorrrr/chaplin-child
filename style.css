@@ -6,4 +6,177 @@
  	Version:      	1.0.0
 */
 
+/* le saca el text-decoration a los H3 */
 
+h3 a {
+	text-decoration:none;
+	color: black;
+}
+
+/* esto arregla el texto del excerpt para que se vaya arriba */
+.cover-header-inner-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+}
+
+
+/* saca el espacio arriba del player */ 
+.home .post-inner {
+padding-top: 0rem
+}
+
+/* links en los blocks no tienen subrayado ;) */ 
+
+.wp-block-cover a {
+	text-decoration: none;
+	text-align: center
+}
+
+.entry-content .entry-header{
+width: 60% !important;
+max-width: 60% !important;
+margin: 0 auto !important;
+float: none !important;
+}
+
+/* centra el contenido del div entry-content */ 
+
+.entry-content {
+width: 100%;
+max-width: 600px;
+margin: 0 auto !important;
+float: none !important;
+}
+
+/* alinea el entry-header para que quede centrado con el entry-content */ 
+
+.entry-header {
+width: 100%;
+max-width: 600px;
+margin: 0 auto !important;
+float: none !important;
+}
+
+.programas {
+width: 100%;
+max-width: 600px;
+height: 200px;
+margin: 0 auto !important;
+float: none !important;
+}
+
+.playlists {
+width: 100%;
+max-width: 600px;
+height: 200px;
+margin: 0 auto !important;
+float: none !important;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #FFF3C9; /* yellow */
+    color: black;
+    margin-bottom: 15px;
+	  width:  100vw;
+    max-width:  100vw;
+    margin-left:  calc(50% - 50vw);
+     }
+.alert a {
+	  color:black !important;
+     }
+
+}
+}
+
+/* Esto es la barrita de notificacin */
+/* The close button */
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    transition: 0.3s;
+}
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+/* para que se vea la manito al cerrar la barrita de notificacion. */
+
+.closebtn {
+   cursor: pointer;
+}
+
+.alert a{
+	background-color: none;
+	color: white;
+}
+
+
+/* este es el CSS para el random-quote del header que algun dia implementaremos
+   
+.random-quote {
+	font-family: Rubik;
+	font-style: italic;
+	display: flex;
+  justify-content: center;
+  padding: 35px 1px 15px 30px; 
+}
+
+*/
+
+
+/* arregla los tamaños del site-header para que no se vayan full width. Lo mismo con el stick-me para cuando queda sticky */
+
+#site-header {
+	border-bottom: none 3px;
+	border-left: none 1px;
+	border-right: none 2rem;
+	border-top: none 1px;
+	margin: 0;
+  padding: 15px 30px 15px 30px; 
+}
+
+.stick-me {
+	border-bottom: none 3px;
+	border-left: none 1px;
+	border-right: none 2rem;
+	border-top: none 1px;
+	margin: 0;
+  padding: 1px 10px 1px 10px; 
+}
+
+/* le da estilo al block de donaciones */
+.special-text-block {
+  border: solid;
+  border-width: 0.3em;
+	color: yellow;
+}
+
+/* agrega fuente Konsole */
+
+@font-face {
+    font-family: Konsole-compact;  
+    src: url(https://super45.fm/wp-content/themes/chaplin-child/fonts/Konsole1.0-CompactBold.otf);  
+    font-weight: normal;  
+}
+
+@font-face {
+    font-family: Konsole-expanded;  
+    src: url(https://super45.fm/wp-content/themes/chaplin-child/fonts/Konsole1.0-ExpandedBold.otf);  
+    font-weight: normal;  
+}
+
+@font-face {
+    font-family: Konsole-thin;  
+    src: url(https://super45.fm/wp-content/themes/chaplin-child/fonts/Konsole1.0-Thin.otf);  
+    font-weight: normal;  
+}
